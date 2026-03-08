@@ -8,7 +8,7 @@ const HeroSection = () => (
     className="relative min-h-[90vh] flex items-center justify-center overflow-hidden"
     style={{ backgroundImage: `url(${heroBg})`, backgroundSize: "cover", backgroundPosition: "center" }}
   >
-    <div className="absolute inset-0 bg-black/60" />
+    <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
     <div className="relative z-10 container mx-auto px-6 text-center">
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
