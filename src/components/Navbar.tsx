@@ -14,10 +14,10 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-lg border-b border-border">
-      <div className="container mx-auto flex items-center justify-between h-16 px-6">
-        <a href="#" className="flex items-center gap-2">
-          <img src={logo} alt="Estimar Alard" className="h-10" />
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-xl border-b border-border shadow-sm">
+      <div className="container mx-auto flex items-center justify-between h-18 px-6">
+        <a href="#" className="flex items-center gap-3 group">
+          <img src={logo} alt="Estimar Alard" className="h-12 drop-shadow-md transition-transform duration-300 group-hover:scale-105" />
         </a>
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
