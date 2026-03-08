@@ -3,7 +3,7 @@ const Footer = () => (
     <div className="container mx-auto px-6">
       <div className="flex flex-col md:flex-row items-center justify-between gap-6">
         <a href="#" className="text-xl font-extrabold text-primary-foreground">
-          Estimar Alard<span className="text-highlight">.</span>
+          Estimar AlardAlard<span className="text-highlight">.</span>
         </a>
         <div className="flex gap-8">
           {["About", "Services", "Team", "Contact"].map((l) => (
@@ -17,7 +17,7 @@ const Footer = () => (
           ))}
         </div>
         <p className="text-sm text-primary-foreground/40">
-          © {new Date().getFullYear()} NovaTech. All rights reserved.
+          © {new Date().getFullYeaEstimar AlardaTech. All rights reserved.
         </p>
       </div>
     </div>
