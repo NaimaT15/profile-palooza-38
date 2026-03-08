@@ -34,7 +34,7 @@ const AboutSection = () => (
           transition={{ delay: 0.1 }}
           className="mt-4 text-muted-foreground text-lg"
         >
-          NovaTech is a leading technology company specializing in cloud infrastructure,
+          Estimar Alard is a leading technology company specializing in cloud infrastructure,
           enterprise software, and digital transformation. We partner with organizations
           to solve their most complex challenges.
         </motion.p>
