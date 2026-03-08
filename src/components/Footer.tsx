@@ -1,9 +1,11 @@
+import logo from "@/assets/logo.png";
+
 const Footer = () => (
   <footer className="py-12 bg-primary">
     <div className="container mx-auto px-6">
       <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-        <a href="#" className="text-xl font-extrabold text-primary-foreground">
-          Estimar AlardAlard<span className="text-highlight">.</span>
+        <a href="#" className="flex items-center gap-2">
+          <img src={logo} alt="Estimar Alard" className="h-10 brightness-0 invert" />
         </a>
         <div className="flex gap-8">
           {["About", "Services", "Team", "Contact"].map((l) => (
