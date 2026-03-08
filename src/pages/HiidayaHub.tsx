@@ -31,7 +31,7 @@ const HiidayaHub = () => (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[hsl(38,40%,95%)]/90 backdrop-blur-xl border-b border-[hsl(38,30%,85%)] shadow-sm">
       <div className="container mx-auto flex items-center justify-between h-20 px-6">
         <a href="#" className="flex items-center group">
-          <img src={logo} alt="HiidayaHub" className="h-14 drop-shadow-md transition-transform duration-300 group-hover:scale-105" />
+          <img src={logo} alt="Hiidaya Hub" className="h-14 drop-shadow-md transition-transform duration-300 group-hover:scale-105" />
         </a>
         <div className="hidden md:flex items-center gap-8">
           {["Features", "How It Works", "Why Us"].map((label) => (
