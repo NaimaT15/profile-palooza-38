@@ -16,7 +16,7 @@ const HeroSection = () => (
         transition={{ duration: 0.7 }}
         className="mb-8"
       >
-        <img src={logo} alt="Estimar Alard" className="h-24 md:h-32 mx-auto drop-shadow-2xl brightness-0 invert" />
+        <img src={logo} alt="Estimar Alard" className="h-24 md:h-32 mx-auto drop-shadow-2xl" />
       </motion.div>
       <motion.p
         initial={{ opacity: 0, y: 20 }}
