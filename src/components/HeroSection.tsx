@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import logo from "@/assets/logo.png";
 
 const HeroSection = () => (
   <section
@@ -9,13 +10,21 @@ const HeroSection = () => (
   >
     <div className="absolute inset-0 bg-black/60" />
     <div className="relative z-10 container mx-auto px-6 text-center">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.7 }}
+        className="mb-8"
+      >
+        <img src={logo} alt="Estimar Alard" className="h-24 md:h-32 mx-auto drop-shadow-2xl brightness-0 invert" />
+      </motion.div>
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="text-sm font-semibold uppercase tracking-widest text-highlight mb-4"
+        transition={{ duration: 0.6, delay: 0.2 }}
+        className="text-sm font-semibold uppercase tracking-[0.3em] text-primary-foreground/80 mb-4"
       >
-        Trusted by industry leaders
+        Building What Lasts
       </motion.p>
       <motion.h1
         initial={{ opacity: 0, y: 30 }}

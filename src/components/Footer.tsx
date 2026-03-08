@@ -1,11 +1,11 @@
 import logo from "@/assets/logo.png";
 
 const Footer = () => (
-  <footer className="py-12 bg-primary">
+  <footer className="py-16 bg-primary">
     <div className="container mx-auto px-6">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-        <a href="#" className="flex items-center gap-2">
-          <img src={logo} alt="Estimar Alard" className="h-10 brightness-0 invert" />
+      <div className="flex flex-col items-center gap-8">
+        <a href="#" className="group">
+          <img src={logo} alt="Estimar Alard" className="h-16 brightness-0 invert drop-shadow-lg transition-transform duration-300 group-hover:scale-105" />
         </a>
         <div className="flex gap-8">
           {["About", "Services", "Team", "Contact"].map((l) => (
