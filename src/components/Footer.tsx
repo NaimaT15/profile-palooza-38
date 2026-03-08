@@ -17,7 +17,7 @@ const Footer = () => (
           ))}
         </div>
         <p className="text-sm text-primary-foreground/40">
-          © {new Date().getFullYeaEstimar AlardaTech. All rights reserved.
+          © {new Date().getFullYear()} Estimar Alard. All rights reserved.
         </p>
       </div>
     </div>
