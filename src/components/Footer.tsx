@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="container mx-auto px-6">
       <div className="flex flex-col items-center gap-8">
         <a href="#" className="group">
-          <img src={logo} alt="Estimar Alard" className="h-16 brightness-0 invert drop-shadow-lg transition-transform duration-300 group-hover:scale-105" />
+          <img src={logo} alt="Estimar Alard" className="h-16 drop-shadow-lg transition-transform duration-300 group-hover:scale-105" />
         </a>
         <div className="flex gap-8">
           {["About", "Services", "Team", "Contact"].map((l) => (
