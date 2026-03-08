@@ -2,10 +2,11 @@ import { motion } from "framer-motion";
 import { Linkedin } from "lucide-react";
 
 const team = [
-  { name: "Sarah Chen", role: "CEO & Co-Founder", initials: "SC" },
-  { name: "Marcus Williams", role: "CTO", initials: "MW" },
-  { name: "Elena Rodriguez", role: "VP of Engineering", initials: "ER" },
-  { name: "James Park", role: "Head of Design", initials: "JP" },
+  { name: "Nanati Oumer", role: "UI/UX Designer", initials: "NO" },
+  { name: "Rawda Hassen", role: "Full Stack Developer", initials: "RH" },
+  { name: "Hindu Abduletif", role: "Graphic & Digital Marketer", initials: "HA" },
+  { name: "Ala Ali", role: "Full Stack Developer", initials: "AA" },
+  { name: "Naima Tilahun", role: "Full Stack Developer", initials: "NT" },
 ];
 
 const TeamSection = () => (
